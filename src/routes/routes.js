@@ -1,9 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom'
-import UserLogin from '../components/Auth/UserLogin'
-import UserRegister from '../components/Auth/UserRegister'
-import ErrorPage from '../components/ErrorPage/ErrorPage'
-import Homepage from '../components/Home/Homepage'
-import Main from '../layouts/Main'
+
+import Main from '../layouts/Main';
+import ErrorPage from '../pages/ErrorPage';
+import Homepage from '../pages/Homepage';
+import UserLogin from '../pages/UserLogin';
+import UserRegister from '../pages/UserRegister';
+
+
 
 
 

@@ -1,6 +1,5 @@
-import React from 'react'
-import logo from '../../assets/images/404-1.svg'
-import Button from '../../utilities/Button'
+import logo from '../assets/404-1.svg'
+
 
 const ErrorPage = () => {
 	return (
@@ -16,7 +15,6 @@ const ErrorPage = () => {
 								<p className='my-2 text-gray-800'>
 									We Are Sorry, But The Page You Requested Was Not Found.
 								</p>
-								<Button btnText={'Back To Home'} destination='/'></Button>
 							</div>
 						</div>
 						<div>
@@ -25,7 +23,7 @@ const ErrorPage = () => {
 					</div>
 				</div>
 				<div>
-					<img alt='' src={logo} />
+					<img alt='' src={ logo } />
 				</div>
 			</div>
 		</div>
