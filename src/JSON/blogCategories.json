@@ -1,0 +1,22 @@
+[
+	{
+		"categoryId": 101,
+		"categoryName": "Adventure"
+	},
+	{
+		"categoryId": 102,
+		"categoryName": "Family Travel"
+	},
+	{
+		"categoryId": 103,
+		"categoryName": "Travel Photography"
+	},
+	{
+		"categoryId": 104,
+		"categoryName": "General Travel"
+	},
+	{
+		"categoryId": 105,
+		"categoryName": "Video Travel"
+	}
+]

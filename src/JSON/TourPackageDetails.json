@@ -1,0 +1,227 @@
+[
+	{
+		"review": 10,
+		"packageId": "001",
+		"title": "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+		"price": 650,
+		"details": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa! Nemo et? Vel excepteur pellentesque morbi ducimus porro commodo sollicitudin, quidem, cupiditate ligula doloribus recusandae non, hac, ullam per, natus parturient sollicitudin! Facilis vestibulum accumsan quisquam excepturi explicabo. Quam aut, luctus hendrerit, laborum, dolor, consectetur scelerisque quisque feugiat sequi, ea ipsa consequat atque consectetur. Litora aute error eos.Placerat habitasse nascetur sit voluptatem ea sint facilisis! Esse sed lacus! Sociosqu ullamcorper venenatis in.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 223,
+		"packagesIncludes": [
+			"Specialized bilingual guide",
+			"Private Transport",
+			"Entrance Fees",
+			"Breakfast And Lunch Box"
+		],
+		"packagesExclude": [
+			"Guide Service Fee",
+			"Room Service Fees",
+			"Driver Service Fee",
+			"Any Private Expenses"
+		],
+		"itinerary": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa!",
+		"itineraryPoints": [
+			"DAY 1 Departure at the airport and arrival at the hotel",
+			"DAY 2 Visit the main museums and lunch included",
+			"DAY 3 Excursion in the natural oasis and picnic",
+			"DAY 4 Transfer to the airport and return to the agency"
+		],
+		"relatedPackages": [
+			"Vacation Packages",
+			"Honeymoon Packages",
+			"New Year Packages",
+			"Weekend Packages"
+		],
+		"relatedImage": [
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg",
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/8BRxkF0/img5.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg"
+		]
+	},
+	{
+		"review": 10,
+		"packageId": "002",
+		"title": "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+		"price": 1150,
+		"details": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa! Nemo et? Vel excepteur pellentesque morbi ducimus porro commodo sollicitudin, quidem, cupiditate ligula doloribus recusandae non, hac, ullam per, natus parturient sollicitudin! Facilis vestibulum accumsan quisquam excepturi explicabo. Quam aut, luctus hendrerit, laborum, dolor, consectetur scelerisque quisque feugiat sequi, ea ipsa consequat atque consectetur. Litora aute error eos.Placerat habitasse nascetur sit voluptatem ea sint facilisis! Esse sed lacus! Sociosqu ullamcorper venenatis in.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 223,
+		"packagesIncludes": [
+			"Specialized bilingual guide",
+			"Private Transport",
+			"Entrance Fees",
+			"Breakfast And Lunch Box"
+		],
+		"packagesExclude": [
+			"Guide Service Fee",
+			"Room Service Fees",
+			"Driver Service Fee",
+			"Any Private Expenses"
+		],
+		"itinerary": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa!",
+		"itineraryPoints": [
+			"DAY 1 Departure at the airport and arrival at the hotel",
+			"DAY 2 Visit the main museums and lunch included",
+			"DAY 3 Excursion in the natural oasis and picnic",
+			"DAY 4 Transfer to the airport and return to the agency"
+		],
+		"relatedPackages": [
+			"Vacation Packages",
+			"Honeymoon Packages",
+			"New Year Packages",
+			"Weekend Packages"
+		],
+		"relatedImage": [
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg",
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/8BRxkF0/img5.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg"
+		]
+	},
+	{
+		"review": 10,
+		"packageId": "003",
+		"title": "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+		"price": 750,
+		"details": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa! Nemo et? Vel excepteur pellentesque morbi ducimus porro commodo sollicitudin, quidem, cupiditate ligula doloribus recusandae non, hac, ullam per, natus parturient sollicitudin! Facilis vestibulum accumsan quisquam excepturi explicabo. Quam aut, luctus hendrerit, laborum, dolor, consectetur scelerisque quisque feugiat sequi, ea ipsa consequat atque consectetur. Litora aute error eos.Placerat habitasse nascetur sit voluptatem ea sint facilisis! Esse sed lacus! Sociosqu ullamcorper venenatis in.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 223,
+		"packagesIncludes": [
+			"Specialized bilingual guide",
+			"Private Transport",
+			"Entrance Fees",
+			"Breakfast And Lunch Box"
+		],
+		"packagesExclude": [
+			"Guide Service Fee",
+			"Room Service Fees",
+			"Driver Service Fee",
+			"Any Private Expenses"
+		],
+		"itinerary": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa!",
+		"itineraryPoints": [
+			"DAY 1 Departure at the airport and arrival at the hotel",
+			"DAY 2 Visit the main museums and lunch included",
+			"DAY 3 Excursion in the natural oasis and picnic",
+			"DAY 4 Transfer to the airport and return to the agency"
+		],
+		"relatedPackages": [
+			"Vacation Packages",
+			"Honeymoon Packages",
+			"New Year Packages",
+			"Weekend Packages"
+		],
+		"relatedImage": [
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg",
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/8BRxkF0/img5.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg"
+		]
+	},
+	{
+		"review": 10,
+		"packageId": "004",
+		"title": "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+		"price": 400,
+		"details": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa! Nemo et? Vel excepteur pellentesque morbi ducimus porro commodo sollicitudin, quidem, cupiditate ligula doloribus recusandae non, hac, ullam per, natus parturient sollicitudin! Facilis vestibulum accumsan quisquam excepturi explicabo. Quam aut, luctus hendrerit, laborum, dolor, consectetur scelerisque quisque feugiat sequi, ea ipsa consequat atque consectetur. Litora aute error eos.Placerat habitasse nascetur sit voluptatem ea sint facilisis! Esse sed lacus! Sociosqu ullamcorper venenatis in.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 223,
+		"packagesIncludes": [
+			"Specialized bilingual guide",
+			"Private Transport",
+			"Entrance Fees",
+			"Breakfast And Lunch Box"
+		],
+		"packagesExclude": [
+			"Guide Service Fee",
+			"Room Service Fees",
+			"Driver Service Fee",
+			"Any Private Expenses"
+		],
+		"itinerary": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa!",
+		"itineraryPoints": [
+			"DAY 1 Departure at the airport and arrival at the hotel",
+			"DAY 2 Visit the main museums and lunch included",
+			"DAY 3 Excursion in the natural oasis and picnic",
+			"DAY 4 Transfer to the airport and return to the agency"
+		],
+		"relatedPackages": [
+			"Vacation Packages",
+			"Honeymoon Packages",
+			"New Year Packages",
+			"Weekend Packages"
+		],
+		"relatedImage": [
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg",
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/8BRxkF0/img5.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg"
+		]
+	},
+	{
+		"review": 10,
+		"packageId": "005",
+		"title": "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+		"price": 550,
+		"details": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa! Nemo et? Vel excepteur pellentesque morbi ducimus porro commodo sollicitudin, quidem, cupiditate ligula doloribus recusandae non, hac, ullam per, natus parturient sollicitudin! Facilis vestibulum accumsan quisquam excepturi explicabo. Quam aut, luctus hendrerit, laborum, dolor, consectetur scelerisque quisque feugiat sequi, ea ipsa consequat atque consectetur. Litora aute error eos.Placerat habitasse nascetur sit voluptatem ea sint facilisis! Esse sed lacus! Sociosqu ullamcorper venenatis in.",
+		"stayingDay": 5,
+		"stayingNight": 4,
+		"peoples": 4,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 223,
+		"packagesIncludes": [
+			"Specialized bilingual guide",
+			"Private Transport",
+			"Entrance Fees",
+			"Breakfast And Lunch Box"
+		],
+		"packagesExclude": [
+			"Guide Service Fee",
+			"Room Service Fees",
+			"Driver Service Fee",
+			"Any Private Expenses"
+		],
+		"itinerary": "Malesuada incidunt excepturi proident quo eros? Id interdum praesent magnis, eius cumque? Integer aptent officiis recusandae habitasse iure, quisque culpa!",
+		"itineraryPoints": [
+			"DAY 1 Departure at the airport and arrival at the hotel",
+			"DAY 2 Visit the main museums and lunch included",
+			"DAY 3 Excursion in the natural oasis and picnic",
+			"DAY 4 Transfer to the airport and return to the agency"
+		],
+		"relatedPackages": [
+			"Vacation Packages",
+			"Honeymoon Packages",
+			"New Year Packages",
+			"Weekend Packages"
+		],
+		"relatedImage": [
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg",
+			"https://i.ibb.co/JQ9ZyFY/img6.jpg",
+			"https://i.ibb.co/8BRxkF0/img5.jpg",
+			"https://i.ibb.co/Dbj3MWJ/img4.jpg"
+		]
+	}
+]

@@ -1,0 +1,65 @@
+[
+	{
+		"country": "peru",
+		"placeId": 101,
+		"place": "Machu Picchu",
+		"tourPlace": 18,
+		"thumbnail": "https://i.ibb.co/nwQvr11/place01.jpg"
+	},
+	{
+		"country": "Bali",
+		"placeId": 102,
+		"place": "Indonesia",
+		"tourPlace": 18,
+		"thumbnail": "https://i.ibb.co/SX9Lk0P/place02.jpg"
+	},
+	{
+		"country": "Tokyo",
+		"placeId": 103,
+		"place": "Japan",
+		"tourPlace": 20,
+		"thumbnail": "https://i.ibb.co/Q8LLHTQ/place03.jpg"
+	},
+	{
+		"country": "Moscow",
+		"placeId": 104,
+		"place": "Russia",
+		"tourPlace": 15,
+		"thumbnail": "https://i.ibb.co/7pMf3SY/place04.jpg"
+	},
+	{
+		"country": "Florida",
+		"placeId": 105,
+		"place": "USA",
+		"tourPlace": 32,
+		"thumbnail": "https://i.ibb.co/K7Cbn32/place05.jpg"
+	},
+	{
+		"country": "Bora Bora",
+		"placeId": 106,
+		"place": "French",
+		"tourPlace": 14,
+		"thumbnail": "https://i.ibb.co/g6ps6Vf/place06.jpg"
+	},
+	{
+		"country": "Westminster Bridge",
+		"placeId": 107,
+		"place": "London",
+		"tourPlace": 18,
+		"thumbnail": "https://i.ibb.co/y0NdHqM/place07.jpg"
+	},
+	{
+		"country": "Taj Mahal",
+		"placeId": 108,
+		"place": "India",
+		"tourPlace": 21,
+		"thumbnail": "https://i.ibb.co/CnLLWWF/place08.jpg"
+	},
+	{
+		"country": "Stonehenge",
+		"placeId": 109,
+		"place": "England",
+		"tourPlace": 15,
+		"thumbnail": "https://i.ibb.co/hLsM5TF/place09.jpg"
+	}
+]

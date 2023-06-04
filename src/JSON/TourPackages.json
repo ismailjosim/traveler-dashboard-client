@@ -1,0 +1,62 @@
+[
+	{
+		"packageId": "001",
+		"title": "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+		"price": 650,
+		"details": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 223
+	},
+	{
+		"packageId": "002",
+		"title": "SUMMER HOLIDAY TO THE OXOLOTAN RIVER",
+		"price": 520,
+		"details": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+		"stayingDay": 5,
+		"stayingNight": 4,
+		"peoples": 4,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/JQ9ZyFY/img6.jpg",
+		"reviews": 120
+	},
+	{
+		"packageId": "003",
+		"title": "SANTORINI ISLAND'S WEEKEND VACATION",
+		"price": 660,
+		"details": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/Dbj3MWJ/img4.jpg",
+		"reviews": 43
+	},
+	{
+		"packageId": "004",
+		"title": "THE WONDERFUL VENICE CITY EXCITING JOURNEY",
+		"price": 500,
+		"details": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/8BRxkF0/img5.jpg",
+		"reviews": 12
+	},
+	{
+		"packageId": "005",
+		"title": "BEAUTIFUL PLACE TO VISIT IN BEACH OF MALDIVES",
+		"price": 460,
+		"details": "Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo maiores, est aliquet porttitor! Eaque, cras, aspernatur.",
+		"stayingDay": 7,
+		"stayingNight": 6,
+		"peoples": 10,
+		"location": "Malaysia",
+		"thumbnail": "https://i.ibb.co/JQ9ZyFY/img6.jpg",
+		"reviews": 12
+	}
+]

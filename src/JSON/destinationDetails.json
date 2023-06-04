@@ -1,0 +1,218 @@
+[
+	{
+		"name": "Machu Picchu",
+		"placeId": 101,
+		"location": "Machu Picchu, peru",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it's renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views. Its exact former use remains a mystery.",
+		"packageIncludes": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Bali",
+		"placeId": 102,
+		"location": "Bali Island, Indonesia",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns. The island is also known for its yoga and meditation retreats",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Tokyo",
+		"placeId": 103,
+		"location": "Tokyo, Japan",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Tokyo, Japan's busy capital, mixes the ultramodern and the traditional, from neon-lit skyscrapers to historic temples. The opulent Meiji Shinto Shrine is known for its towering gate and surrounding woods. The Imperial Palace sits amid large public gardens. The city's many museums offer exhibits ranging from classical art (in the Tokyo National Museum) to a reconstructed kabuki theater (in the Edo-Tokyo Museum)",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Moscow",
+		"placeId": 104,
+		"location": "Moscow,  Russia",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Moscow, on the Moskva River in western Russia, is the nation’s cosmopolitan capital. In its historic core is the Kremlin, a complex that’s home to the president and tsarist treasures in the Armoury. Outside its walls is Red Square, Russia's symbolic center. It's home to Lenin’s Mausoleum, the State Historical Museum's comprehensive collection and St. Basil’s Cathedral, known for its colorful, onion-shaped domes.",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Florida",
+		"placeId": 105,
+		"location": "Florida, United State",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Florida is the southeasternmost U.S. state, with the Atlantic on one side and the Gulf of Mexico on the other. It has hundreds of miles of beaches. The city of Miami is known for its Latin-American cultural influences and notable arts scene, as well as its nightlife, especially in upscale South Beach. Orlando is famed for theme parks, including Walt Disney World.",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Bora Bora",
+		"placeId": 106,
+		"location": "Bora Bora, French",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving. It's also a popular luxury resort destination where some guest bungalows are perched over the water on stilts. At the island's center rises Mt. Otemanu, a 727m dormant volcano.",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Westminster Bridge",
+		"placeId": 107,
+		"location": "London, United Kingdom",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Westminster Bridge is a road-and-foot-traffic bridge over the River Thames in London, linking Westminster on the west side and Lambeth on the east side.",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Taj Mahal",
+		"placeId": 108,
+		"location": "Agra, India",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1631 by the Mughal emperor Shah Jahan to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself.",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	},
+	{
+		"name": "Stonehenge",
+		"placeId": 109,
+		"location": "Wiltshire, England",
+		"rating": 1186,
+		"picture": "https://i.ibb.co/nwQvr11/place01.jpg",
+		"details": "Stonehenge is a prehistoric monument on Salisbury Plain in Wiltshire, England, two miles west of Amesbury. It consists of an outer ring of vertical sarsen standing stones, each around 13 feet high, seven feet wide, and weighing around 25 tons, topped by connecting horizontal lintel stones.",
+		"package": [
+			"Air Fares",
+			"3 Nights Hotel Accommodation",
+			"Tour Guide",
+			"Entrance Fees"
+		],
+		"returnPolicy": [
+			"Guide Service Fee",
+			"Driver Service Fee",
+			"Any Private Expenses",
+			"Room Service Fees"
+		],
+		"gallery": [
+			"https://i.ibb.co/SX9Lk0P/place02.jpg",
+			"https://i.ibb.co/NtgL69S/blog20.jpg"
+		]
+	}
+]
