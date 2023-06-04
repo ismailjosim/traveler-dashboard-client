@@ -1,10 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom'
-
-import Main from '../layouts/Main';
 import ErrorPage from '../pages/ErrorPage';
 import Homepage from '../pages/Homepage';
 import UserLogin from '../pages/UserLogin';
 import UserRegister from '../pages/UserRegister';
+import Destinations from '../pages/Destinations';
+import DashboardLayout from '../layouts/DashboardLayout';
 
 
 
@@ -13,12 +13,16 @@ import UserRegister from '../pages/UserRegister';
 const routes = createBrowserRouter([
 	{
 		path: '/',
-		element: <Main />,
+		element: <DashboardLayout />,
 		errorElement: <ErrorPage />,
 		children: [
 			{
 				path: '/',
 				element: <Homepage />,
+			},
+			{
+				path: '/destinations',
+				element: <Destinations />
 			},
 			{
 				path: '/login',
