@@ -1,5 +1,6 @@
 import TopNav from './TopNav';
 import Sidebar from './Sidebar';
+import { Outlet } from 'react-router-dom';
 
 const DashboardLayout = ({ children }) => {
     return (
@@ -10,8 +11,7 @@ const DashboardLayout = ({ children }) => {
                     <Sidebar />
                 </div>
                 <div className='col-span-10'>
-
-                    <div className="">{ children }</div>
+                    <Outlet />
                 </div>
             </div>
         </section>

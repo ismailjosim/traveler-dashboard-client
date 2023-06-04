@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Booking = () => {
+const AllPackages = () => {
     return (
         <div>
-            Booking Page
+            AllPackages
         </div>
     );
 };
 
-export default Booking;
+export default AllPackages;

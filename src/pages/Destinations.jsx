@@ -4,7 +4,6 @@ const Destinations = () => {
 	return (
 		<div>
 			All Destinations
-
 		</div>
 	)
 }
