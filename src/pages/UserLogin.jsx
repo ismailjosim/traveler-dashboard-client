@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Custom.css'
 
-function MyApp() {
+const Login = () => {
   return (
     <div className='h-full bg-gradient-to-tl from-primary to-accent w-full pb-16 px-4'>
       <div className='flex flex-col items-center justify-center'>
@@ -148,7 +148,7 @@ function MyApp() {
   )
 }
 
-export default MyApp
+export default Login
 /*
 
 

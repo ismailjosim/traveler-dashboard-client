@@ -8,6 +8,7 @@ import DashboardLayout from '../layouts/DashboardLayout';
 import AllPackages from '../pages/AllPackages';
 import Users from '../pages/Users';
 import Reviews from '../pages/Reviews';
+import Admin from '../pages/Admin';
 
 
 
@@ -38,6 +39,10 @@ const routes = createBrowserRouter([
 			{
 				path: '/reviews',
 				element: <Reviews />
+			},
+			{
+				path: '/admin',
+				element: <Admin />
 			},
 			{
 				path: '/login',

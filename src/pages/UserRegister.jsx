@@ -7,15 +7,15 @@ const UserRegister = () => {
 			<div className='flex flex-col items-center justify-center'>
 				<div className='bg-white shadow rounded lg:w-1/3  md:w-1/2 w-full p-10 mt-16'>
 					<p
-						tabIndex={0}
+						tabIndex={ 0 }
 						className='text-2xl font-extrabold leading-6 text-gray-800'
 					>
 						Create New account
 					</p>
 					<button className='focus:outline-none  focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-4'>
 						<svg
-							width={19}
-							height={20}
+							width={ 19 }
+							height={ 20 }
 							viewBox='0 0 19 20'
 							fill='none'
 							xmlns='http://www.w3.org/2000/svg'
@@ -46,8 +46,8 @@ const UserRegister = () => {
 						className='focus:outline-none  focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-4'
 					>
 						<svg
-							width={21}
-							height={20}
+							width={ 21 }
+							height={ 20 }
 							viewBox='0 0 21 20'
 							fill='none'
 							xmlns='http://www.w3.org/2000/svg'
@@ -66,8 +66,8 @@ const UserRegister = () => {
 						className='focus:outline-none  focus:ring-2 focus:ring-offset-1 focus:ring-gray-700 py-3.5 px-4 border rounded-lg border-gray-700 flex items-center w-full mt-4'
 					>
 						<svg
-							width={24}
-							height={24}
+							width={ 24 }
+							height={ 24 }
 							viewBox='0 0 24 24'
 							fill='none'
 							xmlns='http://www.w3.org/2000/svg'
@@ -129,7 +129,7 @@ const UserRegister = () => {
 
 					<div className='mt-8'>
 						<button className='btn-custom btn btn-primary px-5 py-1 text-base relative z-10 text-white btn-custom font-semibold w-full'>
-							{' '}
+							{ ' ' }
 							Log in
 						</button>
 					</div>
@@ -139,7 +139,7 @@ const UserRegister = () => {
 							className='text-sm font-medium leading-none underline text-gray-800 cursor-pointer'
 							to='/login'
 						>
-							{' '}
+							{ ' ' }
 							Login Here
 						</Link>
 					</p>

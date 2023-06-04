@@ -26,7 +26,7 @@ const Sidebar = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink className='flex items-center gap-2 text-xl font-semibold hover:text-white hover:bg-primary uppercase transition-all duration-500 rounded-lg' to="/users">
+                        <NavLink className='flex items-center gap-2 text-xl font-semibold hover:text-white hover:bg-primary uppercase transition-all duration-500 rounded-lg' to="/reviews">
                             <FaMapMarkerAlt size={ 30 } />
                             <span>Reviews</span>
                         </NavLink>
