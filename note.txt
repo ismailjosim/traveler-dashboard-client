@@ -1,0 +1,24 @@
+For tour Destinations:
+1. place name
+2. place country
+3. total places to visit
+4. cover image
+5. ratings
+6. short description
+7. price includes
+8. Departure & Return Location
+9. gallery images
+10. google map Location
+11. local guide info
+
+For Tour packages:
+01. package name
+02. description
+03. Location
+04. person
+05. staying time
+06. package price
+07. total ratings(comes from ratings)
+08. thumbnail image
+09. INCLUDE & EXCLUDE
+10. ITINERARY

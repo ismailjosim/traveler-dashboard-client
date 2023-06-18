@@ -1,1 +1,7 @@
+.group-details summary .icon {
+    transition: transform 0.3s ease;
+}
 
+.group-details summary::-webkit-details-marker {
+    display: none;
+}

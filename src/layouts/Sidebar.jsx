@@ -7,6 +7,7 @@ const Sidebar = () => {
             <div className="p-4">
                 {/* Sidebar items */ }
                 <ul className="space-y-5 mt-5">
+
                     <li>
                         <NavLink className='flex items-center gap-2 text-xl font-semibold hover:text-white hover:bg-primary uppercase transition-all duration-500 rounded-lg' to="/destinations">
                             <FaMapMarkerAlt size={ 30 } />

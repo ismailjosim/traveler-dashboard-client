@@ -9,6 +9,9 @@ import AllPackages from '../pages/AllPackages';
 import Users from '../pages/Users';
 import Reviews from '../pages/Reviews';
 import Admin from '../pages/Admin';
+import Root from '../layouts/Root';
+
+import Home from '../pages/Home'
 
 
 
@@ -17,12 +20,12 @@ import Admin from '../pages/Admin';
 const routes = createBrowserRouter([
 	{
 		path: '/',
-		element: <DashboardLayout />,
+		element: <Root />,
 		errorElement: <ErrorPage />,
 		children: [
 			{
 				path: '/',
-				element: <Homepage />,
+				element: <Home />,
 			},
 			{
 				path: '/packages',

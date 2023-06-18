@@ -1,9 +1,10 @@
 import React from 'react'
+import TextEditor from '../utilities/TextEditor'
 
 const Destinations = () => {
 	return (
 		<div>
-			All Destinations
+			<TextEditor />
 		</div>
 	)
 }
