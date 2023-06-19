@@ -3,27 +3,24 @@ import CollapsibleSection from '../utilities/CollapsibleSection';
 import { useLocation } from 'react-router-dom';
 import { RiMapPin2Fill } from 'react-icons/ri';
 
+
 const SideNav = () => {
     const [isActive, setActive] = useState('/');
     const location = useLocation();
-
     const [isDestinationsCollapsed, setDestinationsCollapsed] = useState(false);
     const [isPackagesCollapsed, setPackagesCollapsed] = useState(false);
     const [isUsersCollapsed, setUsersCollapsed] = useState(false);
     const [isBlogsCollapsed, setIsBlogsCollapsed] = useState(false);
+    const [isProfileCollapsed, setIsProfileCollapsed] = useState(false);
 
     useEffect(() => {
         setActive(location.pathname);
-        setDestinationsCollapsed(
-            location.pathname === '/all-destinations' || location.pathname === '/destinations'
-        );
-        setPackagesCollapsed(
-            location.pathname === '/all-packages' || location.pathname === '/packages'
-        );
+        setDestinationsCollapsed(location.pathname === '/all-destinations' || location.pathname === '/destinations');
+        setPackagesCollapsed(location.pathname === '/all-packages' || location.pathname === '/packages');
         setUsersCollapsed(location.pathname === '/users' || location.pathname === '/manage-user');
-        setIsBlogsCollapsed(
-            location.pathname === '/all-blogs' || location.pathname === '/add-blogs' || location.pathname === '/add-blog'
-        );
+        setIsBlogsCollapsed(location.pathname === '/all-blogs' || location.pathname === '/add-blogs' || location.pathname === '/add-blog');
+
+        setIsProfileCollapsed(location.pathname === '/profile' || location.pathname === '/manage-profile');
     }, [location.pathname]);
 
     const handleCollapseToggle = (type) => {
@@ -35,6 +32,8 @@ const SideNav = () => {
             setUsersCollapsed(!isUsersCollapsed);
         } else if (type === 'blogs') {
             setIsBlogsCollapsed(!isBlogsCollapsed);
+        } else if (type === 'profile') {
+            setIsProfileCollapsed(!isProfileCollapsed)
         }
     };
 
@@ -44,14 +43,14 @@ const SideNav = () => {
                 <CollapsibleSection
                     title="Destinations"
                     icon={ RiMapPin2Fill }
-                    path1="/all-destinations"
+                    path1="/destinations"
                     label1="All Destinations"
-                    isActive1={ isActive === '/all-destinations' }
-                    onClick1={ () => setActive('/all-destinations') }
-                    path2="/destinations"
-                    label2="Destinations"
-                    isActive2={ isActive === '/destinations' }
-                    onClick2={ () => setActive('/destinations') }
+                    isActive1={ isActive === '/destinations' }
+                    onClick1={ () => setActive('/destinations') }
+                    path2="/destination/add"
+                    label2="Add Destination"
+                    isActive2={ isActive === '/destination/add' }
+                    onClick2={ () => setActive('/destination/add') }
                     isCollapsed={ isDestinationsCollapsed }
                     onCollapseToggle={ () => handleCollapseToggle('destinations') }
                 />
@@ -83,6 +82,35 @@ const SideNav = () => {
                     isCollapsed={ isUsersCollapsed }
                     onCollapseToggle={ () => handleCollapseToggle('users') }
                 />
+                <CollapsibleSection
+                    title="Profile"
+                    icon={ RiMapPin2Fill }
+                    path1="/profile"
+                    label1="All Users"
+                    isActive1={ isActive === '/profile' }
+                    onClick1={ () => setActive('/profile') }
+                    path2="/manage-profile"
+                    label2="Manage Profile"
+                    isActive2={ isActive === '/manage-profile' }
+                    onClick2={ () => setActive('/manage-profile') }
+                    isCollapsed={ isProfileCollapsed }
+                    onCollapseToggle={ () => handleCollapseToggle('profile') }
+                />
+                <CollapsibleSection
+                    title="Listing"
+                    icon={ RiMapPin2Fill }
+                    path1="/profile"
+                    label1="All Users"
+                    isActive1={ isActive === '/profile' }
+                    onClick1={ () => setActive('/profile') }
+                    path2="/manage-profile"
+                    label2="Manage Profile"
+                    isActive2={ isActive === '/manage-profile' }
+                    onClick2={ () => setActive('/manage-profile') }
+                    isCollapsed={ isProfileCollapsed }
+                    onCollapseToggle={ () => handleCollapseToggle('profile') }
+                />
+
             </ul>
         </div>
     );

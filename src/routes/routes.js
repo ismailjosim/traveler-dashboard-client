@@ -1,10 +1,9 @@
 import { createBrowserRouter } from 'react-router-dom'
 import ErrorPage from '../pages/ErrorPage';
-import Homepage from '../pages/Homepage';
 import UserLogin from '../pages/UserLogin';
 import UserRegister from '../pages/UserRegister';
 import Destinations from '../pages/Destinations';
-import DashboardLayout from '../layouts/DashboardLayout';
+
 import AllPackages from '../pages/AllPackages';
 import Users from '../pages/Users';
 import Reviews from '../pages/Reviews';
@@ -13,6 +12,7 @@ import Root from '../layouts/Root';
 
 import Home from '../pages/Home'
 
+import AddDestination from '../pages/AddDestination'
 
 
 
@@ -40,8 +40,8 @@ const routes = createBrowserRouter([
 				element: <Destinations />
 			},
 			{
-				path: '/all-destinations',
-				element: <Destinations />
+				path: '/destination/add',
+				element: <AddDestination />
 			},
 			{
 				path: '/users',
