@@ -32,7 +32,15 @@ const routes = createBrowserRouter([
 				element: <AllPackages />
 			},
 			{
+				path: '/all-packages',
+				element: <AllPackages />
+			},
+			{
 				path: '/destinations',
+				element: <Destinations />
+			},
+			{
+				path: '/all-destinations',
 				element: <Destinations />
 			},
 			{

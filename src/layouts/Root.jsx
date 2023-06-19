@@ -10,7 +10,7 @@ const Root = () => {
             <TopHeader />
             <div className='flex justify-between gap-5'>
                 <div className='w-[15%]'>
-                    <div className='fixed left-0 top-0 bottom-0 bg-primary w-[15%]'>
+                    <div className='fixed left-0 top-0 bottom-0 bg-warning w-[15%]'>
                         <SideNav></SideNav>
                     </div>
                 </div>

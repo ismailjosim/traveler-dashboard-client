@@ -5,3 +5,11 @@
 .group-details summary::-webkit-details-marker {
     display: none;
 }
+
+.collapse:not(.collapse-close) input[type="checkbox"]:checked~.collapse-content {
+    padding-bottom: 0;
+}
+
+.activeClass:active {
+    background-color: #F32B42 !important;
+}

@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const TopHeader = () => {
     return (
         <header className='sticky top-0 z-40'>
-            <nav className="bg-error pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto w-full"
+            <nav className="bg-warning pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto w-full"
             >
                 <div className="flex flex-wrap items-center">
                     <div className="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
-                        <a href="/" aria-label="Home">
-                            <span className="text-xl pl-2">
-                                <i className="em em-grinning" />
-                            </span>
-                        </a>
+                        <Link to={ '/' }
+                            className='text-4xl font-bold ml-10'
+                        >
+                            Traveler
+                        </Link>
                     </div>
                     <div className="flex flex-1 md:w-1/3 justify-center md:justify-start text-white px-2">
                         <span className="relative w-full">
@@ -57,7 +58,6 @@ const TopHeader = () => {
                             <li className="flex-1 md:flex-none md:mr-3">
                                 <div className="relative inline-block">
                                     <button
-                                        onClick="toggleDD('myDropdown')"
                                         className="drop-button text-white py-2 px-2"
                                     >
                                         { " " }
@@ -82,7 +82,7 @@ const TopHeader = () => {
                                             className="drop-search p-2 text-gray-600"
                                             placeholder="Search.."
                                             id="myInput"
-                                            oonKeyUp="filterDD('myDropdown','myInput')"
+
                                         />
                                         <a
                                             href="/"
