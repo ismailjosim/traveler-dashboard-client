@@ -2,15 +2,12 @@ import React from 'react';
 
 const TopHeader = () => {
     return (
-        <header>
-            {/*Nav*/ }
-            <nav
-                aria-label="menu nav"
-                className="bg-gray-800 pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto fixed w-full z-20 top-0"
+        <header className='sticky top-0 z-40'>
+            <nav className="bg-error pt-2 md:pt-1 pb-1 px-1 mt-0 h-auto w-full"
             >
                 <div className="flex flex-wrap items-center">
                     <div className="flex flex-shrink md:w-1/3 justify-center md:justify-start text-white">
-                        <a href="#" aria-label="Home">
+                        <a href="/" aria-label="Home">
                             <span className="text-xl pl-2">
                                 <i className="em em-grinning" />
                             </span>
@@ -44,7 +41,7 @@ const TopHeader = () => {
                             <li className="flex-1 md:flex-none md:mr-3">
                                 <a
                                     className="inline-block py-2 px-4 text-white no-underline"
-                                    href="#"
+                                    href="/"
                                 >
                                     Active
                                 </a>
@@ -52,7 +49,7 @@ const TopHeader = () => {
                             <li className="flex-1 md:flex-none md:mr-3">
                                 <a
                                     className="inline-block text-gray-400 no-underline hover:text-gray-200 hover:text-underline py-2 px-4"
-                                    href="#"
+                                    href="/"
                                 >
                                     link
                                 </a>
@@ -60,7 +57,7 @@ const TopHeader = () => {
                             <li className="flex-1 md:flex-none md:mr-3">
                                 <div className="relative inline-block">
                                     <button
-                                        onclick="toggleDD('myDropdown')"
+                                        onClick="toggleDD('myDropdown')"
                                         className="drop-button text-white py-2 px-2"
                                     >
                                         { " " }
@@ -85,23 +82,23 @@ const TopHeader = () => {
                                             className="drop-search p-2 text-gray-600"
                                             placeholder="Search.."
                                             id="myInput"
-                                            onkeyup="filterDD('myDropdown','myInput')"
+                                            oonKeyUp="filterDD('myDropdown','myInput')"
                                         />
                                         <a
-                                            href="#"
+                                            href="/"
                                             className="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"
                                         >
                                             <i className="fa fa-user fa-fw" /> Profile
                                         </a>
                                         <a
-                                            href="#"
+                                            href="/"
                                             className="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"
                                         >
                                             <i className="fa fa-cog fa-fw" /> Settings
                                         </a>
                                         <div className="border border-gray-800" />
                                         <a
-                                            href="#"
+                                            href="/"
                                             className="p-2 hover:bg-gray-800 text-white text-sm no-underline hover:no-underline block"
                                         >
                                             <i className="fas fa-sign-out-alt fa-fw" /> Log Out

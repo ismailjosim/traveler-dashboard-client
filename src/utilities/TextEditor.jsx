@@ -25,7 +25,10 @@ const formats = [
 
 const TextEditor = () => {
     const [description, setDescription] = useState('');
-    console.log(description);
+
+
+
+
     return (
         <section className='grid lg:grid-cols-2 grid-cols-1'>
             <div>
@@ -37,9 +40,9 @@ const TextEditor = () => {
                     formats={ formats }
                 />
             </div>
-            <div>
-                { description }
-            </div>
+
+            <div dangerouslySetInnerHTML={ { __html: description } } />
+
         </section>
     );
 };
