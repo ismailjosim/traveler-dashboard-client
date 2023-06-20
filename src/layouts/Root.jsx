@@ -14,7 +14,7 @@ const Root = () => {
                         <SideNav></SideNav>
                     </div>
                 </div>
-                <div className='w-[85%] h-screen'>
+                <div className='w-[85%] mt-5'>
                     <Outlet />
                 </div>
             </div>

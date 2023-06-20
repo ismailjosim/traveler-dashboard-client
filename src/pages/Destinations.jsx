@@ -1,12 +1,11 @@
-import React from 'react'
-import TextEditor from '../utilities/TextEditor'
+import React from 'react';
 
 const Destinations = () => {
 	return (
 		<div>
-			<TextEditor />
+			All Descriptions
 		</div>
-	)
-}
+	);
+};
 
-export default Destinations
+export default Destinations;
