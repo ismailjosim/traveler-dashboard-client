@@ -15,7 +15,7 @@ const SideNav = () => {
 
     useEffect(() => {
         setActive(location.pathname);
-        setDestinationsCollapsed(location.pathname === '/all-destinations' || location.pathname === '/destinations');
+        setDestinationsCollapsed(location.pathname === '/destination/add' || location.pathname === '/destinations');
         setPackagesCollapsed(location.pathname === '/all-packages' || location.pathname === '/packages');
         setUsersCollapsed(location.pathname === '/users' || location.pathname === '/manage-user');
         setIsBlogsCollapsed(location.pathname === '/all-blogs' || location.pathname === '/add-blogs' || location.pathname === '/add-blog');
