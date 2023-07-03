@@ -24,6 +24,7 @@ const AddDestination = () => {
         register,
         formState: { errors },
         handleSubmit,
+        reset
     } = useForm()
     const [excludedTags, setExcludedTags] = useState(suggestions)
     const [includedTags, setIncludedTags] = useState([])
@@ -84,6 +85,7 @@ const AddDestination = () => {
 
                                 if (data.destination.acknowledged) {
                                     toast.success('Destination Added Successfully 🎉', { autoClose: 1000 })
+                                    reset();
                                     setLoading(false)
                                 }
                             })
