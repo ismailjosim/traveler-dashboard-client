@@ -33,7 +33,6 @@ export const {
     useGetDestinationsQuery,
     useGetDestinationQuery,
     useGetBlogsQuery,
-
 } = apiSlice;
 
 /*
