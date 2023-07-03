@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 import { BsFillSendFill } from 'react-icons/bs'
 import Tags from '../components/AddDestination/Tags'
 import { useForm } from "react-hook-form"
+import { uploadImage } from '../utilities/uploadImage'
+import { toast } from 'react-toastify'
+
+
 
 const suggestions = [
     'Air Fares',
@@ -25,30 +29,76 @@ const AddDestination = () => {
     const [includedTags, setIncludedTags] = useState([])
     const [loading, setLoading] = useState(false)
 
+
     const handleAdd = data => {
+        setLoading(true);
+
         const title = data.title;
-        const thumbnail = data.thumbnail;
+        const thumbnailImage = data.thumbnail;
         const touristPlace = data.touristPlace;
         const city = data.city;
         const country = data.country;
         const selectPackages = data.selectPackages;
-        const gallery = data.gallery;
+        const galleryImage = data.gallery;
         const description = data.description;
 
-        const formData = {
-            title,
-            thumbnail,
-            touristPlace,
-            city,
-            country,
-            selectPackages,
-            gallery,
-            description,
-            includedTags,
-            excludedTags
-        }
-        console.log(formData)
-    }
+        const photo = thumbnailImage[0];
+
+        // Upload the thumbnail image
+        uploadImage(photo)
+            .then(thumbnail => {
+                const fileList = galleryImage;
+                const filesArray = [...fileList];
+
+                // Upload the gallery images
+                const uploadPromises = filesArray.map((single, index) =>
+                    uploadImage(single)
+                );
+
+                // Wait for all gallery images to be uploaded
+                Promise.all(uploadPromises)
+                    .then(galleryImages => {
+                        const formData = {
+                            title,
+                            thumbnail,
+                            touristPlace,
+                            city,
+                            country,
+                            selectPackages,
+                            gallery: galleryImages,
+                            description,
+                            includedTags,
+                            excludedTags
+                        };
+
+                        console.log(formData);
+                        fetch("http://localhost:5000/destinations", {
+                            method: "POST",
+                            headers: {
+                                'content-type': 'application/json'
+                            },
+                            body: JSON.stringify(formData)
+                        })
+                            .then(res => res.json())
+                            .then(data => {
+
+                                if (data.destination.acknowledged) {
+                                    toast.success('Destination Added Successfully 🎉', { autoClose: 1000 })
+                                    setLoading(false)
+                                }
+                            })
+                        setLoading(false);
+                    })
+                    .catch(error => {
+                        console.error('Error uploading gallery images:', error);
+                        setLoading(false);
+                    });
+            })
+            .catch(error => {
+                console.error('Error uploading thumbnail image:', error);
+                setLoading(false);
+            });
+    };
 
     return (
         <section>
@@ -351,7 +401,9 @@ const AddDestination = () => {
                             }) }
                         >
                             <option disabled>Select package</option>
-                            <option value='Afghanistan'>Afghanistan</option>
+                            <option value='Basic package'>Basic package</option>
+                            <option value='Medium package'>Medium package</option>
+                            <option value='Advanced package'>Advanced package</option>
                         </select>
                         { errors.selectPackages && <p className='text-error font-medium mt-1'>{ errors.selectPackages.message }</p> }
                     </div>
