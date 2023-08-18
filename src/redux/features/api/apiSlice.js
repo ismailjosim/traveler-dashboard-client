@@ -4,8 +4,8 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 export const apiSlice = createApi({
     reducerPath: 'api',
     baseQuery: fetchBaseQuery({
-        // baseUrl: 'https://travel-server-woad.vercel.app'
-        baseUrl: 'http://localhost:5000'
+        baseUrl: 'https://travel-server-woad.vercel.app'
+        // baseUrl: 'http://localhost:5000'
     }),
     tagTypes: ["TourPackages", "Blogs", "Destinations"],
     endpoints: (builder) => ({
