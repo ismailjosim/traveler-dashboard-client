@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"name": "Total Revenue",
+		"value": "$3249",
+		"cardStyles": "from-green-200 to-green-100 border-green-600",
+		"iconColor": "bg-green-600"
+	},
+	{
+		"id": 2,
+		"name": "TOTAL USERS",
+		"value": "249",
+		"cardStyles": "from-pink-200 to-pink-100 border-pink-600",
+		"iconColor": "bg-pink-600"
+	},
+	{
+		"id": 3,
+		"name": "NEW USERS",
+		"value": "2",
+		"cardStyles": "from-yellow-200 to-yellow-100 border-yellow-600",
+		"iconColor": "bg-yellow-600"
+	},
+	{
+		"id": 4,
+		"name": "Sales increase",
+		"value": "152%",
+		"cardStyles": "from-green-200 to-green-100 border-green-600",
+		"iconColor": "bg-green-600"
+	},
+	{
+		"id": 5,
+		"name": "TO DO LIST",
+		"value": "7 tasks",
+		"cardStyles": "from-green-200 to-green-100 border-green-600",
+		"iconColor": "bg-green-600"
+	},
+	{
+		"id": 6,
+		"name": "ISSUES",
+		"value": "3",
+		"cardStyles": "from-red-200 to-red-100 border-red-600",
+		"iconColor": "bg-red-600"
+	}
+]

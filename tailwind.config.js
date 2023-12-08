@@ -3,6 +3,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {},
+  darkMode: "class",
   daisyui: {
     themes: [
       {
@@ -29,6 +30,5 @@ module.exports = {
       },
     ],
   },
-  plugins: [require("daisyui", '@tailwindcss/forms')],
+  plugins: [require("daisyui")],
 }
-
