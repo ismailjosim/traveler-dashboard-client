@@ -13,6 +13,7 @@ import Root from '../layouts/Root';
 import Home from '../pages/Home'
 
 import AddDestination from '../pages/AddDestination'
+import EditDestination from '../pages/EditDestination';
 
 
 
@@ -42,6 +43,10 @@ const routes = createBrowserRouter([
 			{
 				path: '/destination/add',
 				element: <AddDestination />
+			},
+			{
+				path: '/destination/edit/:id',
+				element: <EditDestination />
 			},
 			{
 				path: '/users',

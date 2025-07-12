@@ -2,6 +2,7 @@ import React from 'react';
 import { AiFillEye } from 'react-icons/ai';
 import { BiEdit } from 'react-icons/bi';
 import { BsFillTrashFill } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 
 const DestinationTable = ({ destinations }) => {
     return (
@@ -18,7 +19,8 @@ const DestinationTable = ({ destinations }) => {
                         <th scope="col" className="h-12 px-6 text-sm font-medium stroke-slate-700 text-slate-700 ">Delete</th>
                     </tr>
                     { destinations && destinations.map((item, index) => {
-                        const { title, country, city, thumbnail, touristPlace } = item || {}
+                        const {_id, title, country, city, thumbnail, touristPlace } = item || {}
+
                         return (
                             <tr className="border-b border-slate-200" key={ index }>
                                 <td className="h-12 px-6 text-sm transition duration-300 border-slate-200 stroke-slate-500 text-slate-500">
@@ -39,7 +41,7 @@ const DestinationTable = ({ destinations }) => {
                                     <AiFillEye size={ 20 } />
                                 </td>
                                 <td className="h-12 px-6 text-sm transition duration-300 text-secondary">
-                                    <BiEdit size={ 20 } />
+                                    <Link to={`/destination/edit/${_id}`}><BiEdit size={ 20 } /></Link>
                                 </td>
                                 <td className="h-12 px-6 text-sm transition duration-300 text-error">
                                     <BsFillTrashFill size={ 20 } />
